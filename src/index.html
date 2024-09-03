@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <div class="city-time">
+                <h1 id="location">Salt Lake City, Utah</h1>
+                <p id="currentDate">Date: --</p>
+                <p id="currentTime">Time: --</p>
+            </div>            
+            <div class="temp" id="temperature">--°C</div>
+            <div class="weather">
+                <img id="weatherIcon" src="" alt="Weather icon">
+                <h3 id="description">--</h3>
+            </div>
+            <button id="toggleUnit" class="submit">Toggle to °F</button>
+        </div>
+        <div class="panel">
+            <form id="searchForm">
+                <input type="text" id="locationInput" class="search" placeholder="Search city...">
+                <button type="submit" class="submit">Search</button>
+            </form>
+            <ul class="default-locations">
+                <h4>Popular Locations</h4>
+                <li class="city" data-city="New York, US">New York</li>
+                <li class="city" data-city="Los Angeles, US">Los Angeles</li>
+                <li class="city" data-city="Tokyo, JP">Tokyo</li>
+                <li class="city" data-city="Paris, FR">Paris</li>
+                <li class="city" data-city="London, GB">London</li>
+                <li class="city" data-city="Sydney, AU">Sydney</li>
+            </ul>
+        <ul class="weather-details">
+            <h4>Weather Details</h4>
+            <li id="humidity">Humidity: --%</li>
+            <li id="wind-speed">Wind Speed: -- km/h</li>
+            <li id="pressure">Pressure: -- hPa</li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>
