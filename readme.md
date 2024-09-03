@@ -78,7 +78,6 @@ The **Weather App** is a dynamic and visually compelling web application that pr
 ## Screenshots
 
 ![Home Page](assets/homepage.png)
-![Search Results/Weather Details](assets/home.png)
 
 
 
