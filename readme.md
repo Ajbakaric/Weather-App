@@ -79,6 +79,11 @@ The **Weather App** is a dynamic and visually compelling web application that pr
 
 ![Home Page](assets/homepage.png)
 
+## Live Demo
+
+Check out the live version of the Weather App here:  
+ [https://weathernow-appnow.netlify.app/](https://weathernow-appnow.netlify.app/)
+
 
 
 ## Acknowledgments
